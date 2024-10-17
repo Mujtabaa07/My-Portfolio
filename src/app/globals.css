@@ -25,3 +25,26 @@ body {
     text-wrap: balance;
   }
 }
+/* Background */
+.bg-dark {
+  background: #101010;
+}
+
+/* Animations */
+@keyframes twinkle {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    transform: scale(1.05) translateY(-10px);
+  }
+}
