@@ -64,7 +64,7 @@ export default function HeroSection() {
           </motion.a>
           
           <motion.a 
-            href="/path/to/your/resume.pdf" // Replace with your resume link
+            href="https://drive.google.com/file/d/1Hp1hR6VvYxELLCOG9qiuQIQof-cMLPPf/view?usp=sharing" // Replace with your resume link
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1, backgroundColor: "#ff6347" }} // Change color on hover
