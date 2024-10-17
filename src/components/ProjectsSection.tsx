@@ -12,10 +12,11 @@ export default function ProjectsSection() {
   const projects = [
     {
       id: 1,
-      title: "Tint & Orange",
-      description: "A car modification company website with 3D car customization",
+      title: "X-Clone(Twitter)FullStack App",
+      description: "FullStack WebApp for Twitter Clone",
       image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=500&h=300",
-      tags: ["React", "Three.js", "Node.js", "MongoDB"],
+      tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
+      
       github: "https://github.com/yourusername/tint-and-orange",
       live: "https://tintandorange.com",
     },
@@ -24,7 +25,7 @@ export default function ProjectsSection() {
       title: "Breaking Copyrights",
       description: "A platform to discover and download copyright-free music for content creators",
       image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=500&h=300",
-      tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
+      tags: ["React", "Three.js", "Node.js", "MongoDB"],
       github: "https://github.com/yourusername/breaking-copyrights",
       live: "https://breakingcopyrights.com",
     },
