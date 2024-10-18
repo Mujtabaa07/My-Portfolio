@@ -24,7 +24,7 @@ export default function ProjectsSection() {
       id: 2,
       title: "MsCafe",
       description: "MsCafe was founded with a simple mission: to serve the best coffee in town.with User friendly interface UI",
-      image: "https://private-user-images.githubusercontent.com/70109255/372352450-1d60d37c-891d-4b7b-b477-1bfa75d59691.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkyNDU4MjgsIm5iZiI6MTcyOTI0NTUyOCwicGF0aCI6Ii83MDEwOTI1NS8zNzIzNTI0NTAtMWQ2MGQzN2MtODkxZC00YjdiLWI0NzctMWJmYTc1ZDU5NjkxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE4VDA5NTg0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQzMTVmMzJiNDRhMTI0ZDhlMWNiOWRkZTgwZWI4NDJlMTUzMDAyOGMyMWU2Y2JmMWFiYWJmNDFjOTgxNTUyMmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.8pJp7y4U1ywyTPHHs-4KD3k9D097-0OPOdEqqniT7oc",
+      image: "https://i.ibb.co/mCRgRRD/Screenshot-2024-10-18-155313-wwwwwwwwwwwwwwwwwwwwwkjahdiahddiafouubfojsnd-VL-k-www-jpeg.png",
       tags: ["React", "Three.js", "Node.js", "MongoDB"],
       github: "https://github.com/Mujtabaa07/coffeeShop?tab=readme-ov-file",
       live: "https://coffee-shop-teal.vercel.app/",
