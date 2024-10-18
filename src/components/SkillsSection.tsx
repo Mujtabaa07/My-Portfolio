@@ -1,6 +1,6 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa"
-import { SiExpress, SiMongodb, SiTailwindcss, SiNextdotjs, SiTypescript, SiGraphql } from "react-icons/si"
+import { Card, CardContent } from "@/components/ui/card";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
+import { SiExpress, SiMongodb, SiTailwindcss, SiNextdotjs, SiTypescript, SiGraphql } from "react-icons/si";
 
 export default function SkillsSection() {
   const skills = [
@@ -16,13 +16,13 @@ export default function SkillsSection() {
     { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
     { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
     { name: "GraphQL", icon: SiGraphql, color: "#E10098" }
-  ]
+  ];
 
   return (
-    <section id="skills" className="py-16 ">
+    <section id="skills" className="py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
-          <span className="text-primary ">M</span>y Tech Stack
+          <span className="text-primary">M</span>y Tech Stack
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-4">
@@ -30,12 +30,12 @@ export default function SkillsSection() {
               <CardContent className="p-6">
                 <p className="mb-4">
                   Hi Everyone! My name is Mohamed Mujtaba. I am a Full Stack Web Developer with 3 years of experience.
-                  Currently, I'm working with a budding startup in the USA and as a full-time freelancer.
+                  Currently, I&apos;m working with a budding startup in the USA and as a full-time freelancer.
                   I specialize in Next.js and creating beautiful UI/UX designs.
                 </p>
                 <p>
                   My passion lies in crafting efficient, scalable, and user-friendly web applications. 
-                  I'm always eager to learn new technologies and improve my skills to deliver the best possible solutions.
+                  I&apos;m always eager to learn new technologies and improve my skills to deliver the best possible solutions.
                 </p>
               </CardContent>
             </Card>
@@ -62,5 +62,5 @@ export default function SkillsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

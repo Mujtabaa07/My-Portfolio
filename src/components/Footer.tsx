@@ -1,5 +1,6 @@
 "use client"
 
+import { AnimationControls } from 'framer-motion';
 import { useEffect, useRef } from 'react'
 import { motion, useAnimation } from 'framer-motion'
 import { Linkedin, Github, Twitter, Mail, ChevronUp } from 'lucide-react'
@@ -12,7 +13,8 @@ const socialLinks = [
   { icon: Github, href: "https://github.com/Mujtabaa07", label: "GitHub" },
 ]
 
-const Wave = ({ animate }: { animate: any }) => {
+
+const Wave = ({ animate }: { animate: AnimationControls }) => {
   return (
     <svg
       className="absolute inset-0 w-full h-full"
@@ -46,27 +48,6 @@ const Wave = ({ animate }: { animate: any }) => {
   )
 }
 
-const AnimatedText = ({ text }: { text: string }) => {
-  return (
-    <div className="flex justify-center items-center overflow-hidden">
-      {text.split("").map((char, index) => (
-        <motion.span
-          key={index}
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{
-            duration: 0.5,
-            delay: index * 0.1,
-            ease: [0.6, -0.05, 0.01, 0.99],
-          }}
-          className="inline-block"
-        >
-          {char}
-        </motion.span>
-      ))}
-    </div>
-  )
-}
 
 export default function Footer() {
   const footerRef = useRef(null)
@@ -99,7 +80,7 @@ export default function Footer() {
         </motion.div>
 
         <div className="flex justify-center space-x-8 mb-12">
-          {socialLinks.map((link, index) => (
+          {socialLinks.map((link) => (
             <motion.a
               key={link.label}
               href={link.href}

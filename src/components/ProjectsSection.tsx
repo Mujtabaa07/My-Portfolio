@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/buttons";
@@ -12,11 +13,10 @@ export default function ProjectsSection() {
   const projects = [
     {
       id: 1,
-      title: "X-Clone(Twitter)FullStack App",
+      title: "X-Clone (Twitter) FullStack App",
       description: "FullStack WebApp for Twitter Clone",
       image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=500&h=300",
       tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-      
       github: "https://github.com/yourusername/tint-and-orange",
       live: "https://tintandorange.com",
     },
@@ -67,35 +67,35 @@ export default function ProjectsSection() {
               viewport={{ once: true }}
             >
               <Card
-                className="overflow-hidden group"
+                className="overflow-hidden group relative"
                 onMouseEnter={() => setHoveredProject(project.id)}
                 onMouseLeave={() => setHoveredProject(null)}
               >
-                <div className="relative overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 text-white bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <Button
-                      variant="secondary"
-                      className="mr-2"
-                      asChild
-                    >
-                      <a href={project.github} target="_blank" rel="noopener noreferrer">
-                        <Github className="mr-2 h-4 w-4" /> View Code
-                      </a>
-                    </Button>
-                    <Button
-                      variant="secondary"
-                      asChild
-                    >
-                      <a href={project.live} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
-                      </a>
-                    </Button>
-                  </div>
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  width={500}
+                  height={300}
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 text-white bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <Button
+                    variant="secondary"
+                    className="mr-2"
+                    asChild
+                  >
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="mr-2 h-4 w-4" /> View Code
+                    </a>
+                  </Button>
+                  <Button
+                    variant="secondary"
+                    asChild
+                  >
+                    <a href={project.live} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
+                    </a>
+                  </Button>
                 </div>
                 <CardHeader>
                   <CardTitle className="flex justify-between items-center">
