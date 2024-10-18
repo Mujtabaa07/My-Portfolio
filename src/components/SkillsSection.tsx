@@ -28,15 +28,21 @@ export default function SkillsSection() {
           <div className="space-y-4">
             <Card>
               <CardContent className="p-6">
-                <p className="mb-4">
-                  Hi Everyone! My name is Mohamed Mujtaba. I am a Full Stack Web Developer with 3 years of experience.
-                  Currently, I&apos;m working with a budding startup in the USA and as a full-time freelancer.
+                <h6 className="font-extrabold mb-3">About :</h6>
+                <ul><li><p className="font-semibold">
+                I&apos;m Mohamed Mujtaba, a software engineer based in Bengaluru, India. I specialize in building exceptional, high-quality websites and applications.
+                </p></li>
+                <br />
+                <p className="mb-2 font-semibold">
+                   I am a Full Stack Web Developer with 3 years of experience.
+                  Currently, 
                   I specialize in Next.js and creating beautiful UI/UX designs.
                 </p>
-                <p>
+                <br />
+                <p className="font-semibold">
                   My passion lies in crafting efficient, scalable, and user-friendly web applications. 
                   I&apos;m always eager to learn new technologies and improve my skills to deliver the best possible solutions.
-                </p>
+                </p></ul>
               </CardContent>
             </Card>
           </div>
