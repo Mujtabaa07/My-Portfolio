@@ -16,6 +16,10 @@ const nextConfig = {
         hostname:'i.ibb.co',
 
       },
+      {
+              protocol:'https',
+              hostname:'t0.gstatic.com',
+      }
 
       ],
 

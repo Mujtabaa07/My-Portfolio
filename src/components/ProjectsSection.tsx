@@ -40,12 +40,12 @@ export default function ProjectsSection() {
     },
     {
       id: 4,
-      title: "MernBlog",
-      description: "Welcome to the MERN Stack Blog Project, an in-depth full-stack blog application built using Node.js, Express, React, and MongoDB. Starting from scratch, this project showcases how to create a complete and functional full-stack application with modern web technologies.",
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=500&h=300",
-      tags: ["React", "Express.js", "Node.js", "MongoDB"],
-      github: "https://github.com/Mujtabaa07/Mernblog-frontend",
-      live: "https://mernblog-frontend-phi.vercel.app/",
+      title: "Tic-Tac-Toe",
+      description: "Frontend created by react.js for creating responsive user-friendly interfaces and seamless API integration.Backend and Database Management: Proficient in server-side development with Node.js, Express.js, and Postgresql. Dynamic Data Management: Developed a web application with full CRUD (Create, Read, Update, Delete)capabilities.",
+      image: "https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQdR5hPxiKG7MuJFuIe1lbrqandKE2QP5JzdrE4Dt6gnzu6Xnc0dCyK97yTeghVzkok",
+      tags: ["Next.js", "Express.js", "Node.js", "Postgresql","NeonDB","Render.com(Backend)"],
+      github: "https://github.com/Mujtabaa07/Tic-Tac-Toe-FullStack-",
+      live: "https://tic-tac-toe-full-stack.vercel.app/",
     },
   ];
 
